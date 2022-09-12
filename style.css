@@ -4,76 +4,120 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 /* body */
-body{
-    background:url(./img/fondo.png) ;
+body {
+    background: url(./img/fondo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size:auto;
+    background-size: auto;
 }
+
 /* header */
-.header{
+.header {
     display: flex;
     padding: 3px;
     margin: 3px;
     gap: 13px;
-    background-color: #4e3b31 ;
+    background-color: #4e3b31;
 }
+
 /* main */
-.main{
+.main {
     text-align: center;
     padding: 15px;
 }
-.p{
-    font-size:large;
+
+.p {
+    font-size: large;
 }
-.p-ini{
+
+.p-ini {
     color: white;
 }
 
-.img-1{
+.img-1 {
     border-radius: 15px;
     width: 250px;
     height: 250px;
     margin: 15px;
+    opacity: 75%;
 }
-.img-2{
+
+.img-2 {
     border-radius: 15px;
     width: 250px;
     height: 250px;
     margin: 15px;
+    opacity: 75%;
 }
-.img-3{
+
+.img-3 {
     border-radius: 15px;
     width: 250px;
     height: 250px;
     margin: 15px;
+    opacity: 75%;
 }
-.img-4{
+
+.img-4 {
     border-radius: 15px;
     width: 250px;
     height: 250px;
     margin: 15px;
+    opacity: 75%;
 }
-.img-5{
+
+.img-5 {
     border-radius: 15px;
     width: 250px;
     height: 250px;
     margin: 15px;
+    opacity: 75%;
 }
-.img-6{
+
+.img-6 {
     border-radius: 15px;
     width: 250px;
     height: 250px;
     margin: 15px;
+    opacity: 75%;
 }
+
+/* hover */
+.img-1:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+.img-2:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+.img-3:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+.img-4:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+.img-5:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+.img-6:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+
 /* footer */
-.footer{
+.footer {
     display: flex;
     padding: 3px;
     margin: 3px;
     gap: 13px;
     justify-content: space-between;
-    background-color: #4e3b31 ;
+    background-color: #4e3b31;
 }
