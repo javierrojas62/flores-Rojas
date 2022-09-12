@@ -12,6 +12,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: auto;
+   
 }
 
 /* header */
@@ -109,6 +110,14 @@ body {
 .img-6:hover {
     transform: scale(1.1);
     opacity: 100%;
+    
+}
+/* animaciones */
+
+@keyframes aparecer {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
 }
 
 
